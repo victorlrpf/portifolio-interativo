@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+header{
+    margin-top: 50px;
+}
+
+body {
+    background: linear-gradient(45deg, #036BFC, #004775);
+    background-repeat: no-repeat;
+    min-height: 94.9vh;
+    min-width: 90vh;
+}
+
+main {
+    margin: 1rem;
+    padding: 1px;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu img {
+    float: left;
+    width: 15rem;
+    margin-top: -100px;
+}
+
+/* Seleção hambuerguer */
+
+#menu-selecao {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    /* Inicialmente escondido à esquerda */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: right 0.3s ease-in-out;
+    /* Adiciona uma transição suave */
+    z-index: 1;
+}
+
+#menu-selecao a {
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#menu-selecao ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+#menu-selecao ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#hamburguer-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+/**/
+
+.menu a {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 4px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    
+}
+
+.carta  {
+    width: 50%;
+}
+.trabalho{
+    width: 50%;
+}
+/*   text-align: left;*/
+a:hover {
+    color: #fff;
+    border-bottom: 5px solid #6cf3f800;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 40px 10px;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s, background 0.3s;
+    
+}
+
+.links a:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to right, #0000CD , #0000FF);
+    border-radius: 10px;
+}
+
+.social-field{
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 0.60rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.social-field a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-field a i{
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.social-field.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.social-field.instagram{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.social-field.linkedin{
+    background: linear-gradient(45deg, #0077b5, #00a0dc);
+}
+
+.social-field.github{
+    background: linear-gradient(45deg, #24292e, #3f4448);
+}
+/* Colocar para os celulares */
+
+/* Estilos para telas menores que 768px de largura no modo retrato */
+@media (max-width: 920px) and (orientation: portrait) {
+
+    /* Seus estilos aqui */
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(45deg, #036BFC, #004775);
+        background-repeat: no-repeat;
+        /*min-height: 50vh;*/
+        min-width: 10vh;
+    }
+
+    .menu img{
+        margin-top: -100px;
+        margin-right: -50px;
+        width: 200px;
+        height: 200px;
+    }
+
+/*
+    main {
+        margin: 1rem;
+        padding: 1px;
+    }
+*/
+    .menu p{
+        font-size: 25px;
+    }
+
+    .carta {
+        width: 100%;
+    }
+
+    .trabalho{
+        width: 100%;
+    }
+
+    #menu-selecao a {
+        padding: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #menu-selecao ul li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #menu-selecao ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #hamburguer-icon {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        z-index: 2;
+        margin-left: 40%;
+    }
+
+    .menu a {
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 100px;
+        margin-right: 4px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #fff;
+        border-bottom: 5px solid #6cf3f800;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .links a {
+        padding: 20px 5px;
+        margin-right: 10px;
+        
+    }
+
+    .social-field{
+        padding: 2px;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        width: 95%;
+        cursor: pointer;
+        margin-top: 0.60rem;
+        text-align: center;
+        margin-left: 0.5rem;
+    }
+    
+    .social-field a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .social-field a i{
+        margin: 0 0.5rem;
+        width: 15px;
+    }
+    
+    .social-field.twitter {
+        background: linear-gradient(to right, #56a7f2, #468aca);
+    }
+    
+    .social-field.instagram{
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    }
+    
+    .social-field.linkedin{
+        background: linear-gradient(45deg, #0077b5, #00a0dc);
+    }
+    
+    .social-field.github{
+        background: linear-gradient(45deg, #24292e, #3f4448);
+    }
+
+}
+
+@media (min-widht: 921px) {
+
+    /* Seus estilos aqui */
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(45deg, #036BFC, #004775);
+        background-repeat: no-repeat;
+        min-height: 100%;
+        min-width: 100%;
+    }
+/*
+    main {
+        margin: 1rem;
+        padding: 1px;
+    }
+*/
+    .menu p{
+        font-size: 25px;
+    }
+    #menu-selecao {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        /* Inicialmente escondido à esquerda */
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        transition: right 0.3s ease-in-out;
+        /* Adiciona uma transição suave */
+        z-index: 1;
+        display: none;
+    }
+
+    #menu-selecao ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #menu-selecao ul li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #menu-selecao ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #hamburger-icon {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        z-index: 2;
+        display: block;
+        margin-left: 40%;
+    }
+
+    a:hover {
+        color: #fff;
+        border-bottom: 5px solid #6cf3f800;
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .links a {
+        padding: 20px 5px;
+        margin-right: 10px;
+        
+    }
+
+    .social-field{
+        padding: 2px;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        width: 95%;
+        cursor: pointer;
+        margin-top: 0.60rem;
+        text-align: center;
+    }
+    
+    .social-field a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .social-field a i{
+        margin: 0 0.5rem;
+        width: 15px;
+    }
+    
+    .social-field.twitter {
+        background: linear-gradient(to right, #56a7f2, #468aca);
+    }
+    
+    .social-field.instagram{
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    }
+    
+    .social-field.linkedin{
+        background: linear-gradient(45deg, #0077b5, #00a0dc);
+    }
+    
+    .social-field.github{
+        background: linear-gradient(45deg, #24292e, #3f4448);
+    }
+    
+}
