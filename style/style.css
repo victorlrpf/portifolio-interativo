@@ -126,13 +126,16 @@ a:hover {
     text-align: center;
     display: inline-block;
     transition: transform 0.3s, background 0.3s;
-    
 }
 
 .links a:hover{
     transform: scale(1.1);
-    background: linear-gradient(to right, #0000CD , #0000FF);
+    background: linear-gradient(to right, #129DE6 , #12E5CD);
     border-radius: 10px;
+}
+
+.texto-link {
+    margin-top: 20px;
 }
 
 .social-field{
@@ -170,6 +173,15 @@ a:hover {
 
 .social-field.github{
     background: linear-gradient(45deg, #24292e, #3f4448);
+}
+
+.cursos{
+    width: 50%;
+}
+
+.exp img {
+    width: 30px;
+    height: 30px;
 }
 /* Colocar para os celulares */
 
