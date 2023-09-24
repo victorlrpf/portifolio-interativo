@@ -96,6 +96,7 @@ main {
 .carta  {
     width: 50%;
 }
+
 .trabalho{
     width: 50%;
 }
@@ -182,6 +183,25 @@ a:hover {
 .exp img {
     width: 30px;
     height: 30px;
+}
+
+.banner{
+    margin-left: 50%;
+    margin-top: -30%;
+}
+
+.projetos-git a{
+    text-decoration: none;
+    color: black;
+}
+
+.projetos-git a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.projetos{
+    width: 60%;
 }
 /* Colocar para os celulares */
 
@@ -272,13 +292,13 @@ a:hover {
     .row {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
     .col-3 {
-        width: 25%;
+        width: 100%;
     }
 
     .links a {
@@ -324,6 +344,16 @@ a:hover {
         background: linear-gradient(45deg, #24292e, #3f4448);
     }
 
+    .banner{
+        margin-left: -12rem;
+        margin-top: -2px;
+        display: none;
+    }
+
+    .projetos{
+        width: 100%;
+    }
+    
 }
 
 @media (min-widht: 921px) {
