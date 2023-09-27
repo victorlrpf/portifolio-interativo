@@ -387,7 +387,7 @@ a:hover {
         /* Inicialmente escondido à esquerda */
         width: 250px;
         height: 100%;
-        background-color: #333;
+        background-color: #22F0CD;
         transition: right 0.3s ease-in-out;
         /* Adiciona uma transição suave */
         z-index: 1;
@@ -479,4 +479,7 @@ a:hover {
         background: linear-gradient(45deg, #24292e, #3f4448);
     }
     
+    .banner img {
+        display: none;
+    }
 }
