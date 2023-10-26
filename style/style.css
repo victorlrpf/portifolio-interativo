@@ -13,8 +13,10 @@ header{
 body {
     background: linear-gradient(45deg, #22F0CD, #26A6ED);
     background-repeat: no-repeat;
-    min-height: 94.9vh;
-    min-width: 90vh;
+/*    min-height: 94.9vh;
+    min-width: 90vh;*/
+    min-height: 50rem;
+    min-width: 90rem;
 }
 
 main {
@@ -188,7 +190,7 @@ a:hover {
 
 .banner{
     margin-left: 70%;
-    margin-top: -20%;
+    margin-top: -40%;
 }
 
 .projetos-git a{
@@ -203,6 +205,16 @@ a:hover {
 
 .projetos{
     width: 60%;
+}
+
+.projetos a{
+    text-decoration: none;
+    color: black;
+}
+
+.projetos a:hover{
+    text-decoration: none;
+    color: white;
 }
 /* Colocar para os celulares */
 
