@@ -190,7 +190,7 @@ a:hover {
 
 .banner{
     margin-left: 70%;
-    margin-top: -40%;
+    margin-top: -20%;
 }
 
 .projetos-git a{
@@ -215,6 +215,11 @@ a:hover {
 .projetos a:hover{
     text-decoration: none;
     color: white;
+}
+
+.banner-projetos{
+    margin-left: 70%;
+    margin-top: -40%;
 }
 /* Colocar para os celulares */
 
