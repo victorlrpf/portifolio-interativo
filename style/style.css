@@ -236,8 +236,8 @@ a:hover {
     body {
         background: linear-gradient(45deg, #22F0CD, #26A6ED);
         background-repeat: no-repeat;
-        /*min-height: 50vh;*/
-        min-width: 10vh;
+        min-height: 108vh;
+        min-width: 50vh;
     }
 
     .menu img{
