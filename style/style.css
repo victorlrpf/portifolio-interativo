@@ -226,7 +226,7 @@ a:hover {
 /* Colocar para os celulares */
 
 /* Estilos para telas menores que 768px de largura no modo retrato */
-@media (max-width: auto) and (orientation: portrait) {
+@media (max-width: 920px) and (orientation: portrait) {
 
     /* Seus estilos aqui */
     * {
@@ -380,7 +380,7 @@ a:hover {
 
 }
 
-@media (max-width: auto) and (orientation: landscape) {
+@media (max-width: 921px) and (orientation: landscape) {
 
     /* Seus estilos aqui */
     * {
