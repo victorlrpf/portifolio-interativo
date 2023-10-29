@@ -236,8 +236,8 @@ a:hover {
     body {
         background: linear-gradient(45deg, #22F0CD, #26A6ED);
         background-repeat: no-repeat;
-        /*min-height: 50vh;*/
-        min-width: 10vh;
+        min-height: 108vh;
+        min-width: 50vh;
     }
 
     .menu img{
@@ -372,7 +372,11 @@ a:hover {
         width: 100%;
     }
 
+<<<<<<< HEAD
     .texo-link {
+=======
+    .banner-projetos img {
+>>>>>>> c492cac9b5e1522a7b74f8f0ad57451245623301
         display: none;
     }
     
