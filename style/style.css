@@ -6,14 +6,14 @@
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-header{
+header {
     margin-top: 50px;
 }
 
 body {
     background: linear-gradient(45deg, #22F0CD, #26A6ED);
     background-repeat: no-repeat;
-/*    min-height: 94.9vh;
+    /*    min-height: 94.9vh;
     min-width: 90vh;*/
     min-height: 50rem;
     min-width: 80rem;
@@ -93,16 +93,17 @@ main {
     text-decoration: none;
     border-bottom: 3px solid transparent;
     cursor: pointer;
-    
+
 }
 
-.carta  {
+.carta {
     width: 50%;
 }
 
-.trabalho{
+.trabalho {
     width: 50%;
 }
+
 /*   text-align: left;*/
 a:hover {
     color: #fff;
@@ -132,9 +133,9 @@ a:hover {
     transition: transform 0.3s, background 0.3s;
 }
 
-.links a:hover{
+.links a:hover {
     transform: scale(1.1);
-    background: linear-gradient(to right, #129DE6 , #12E5CD);
+    background: linear-gradient(to right, #129DE6, #12E5CD);
     border-radius: 10px;
 }
 
@@ -142,7 +143,7 @@ a:hover {
     margin-top: 20px;
 }
 
-.social-field{
+.social-field {
     padding: 2px;
     border-radius: 4px;
     font-size: 0.85rem;
@@ -153,12 +154,12 @@ a:hover {
     margin-left: 2rem;
 }
 
-.social-field a{
+.social-field a {
     text-decoration: none;
     color: white;
 }
 
-.social-field a i{
+.social-field a i {
     margin: 0 0.5rem;
     width: 15px;
 }
@@ -167,19 +168,19 @@ a:hover {
     background: linear-gradient(to right, #56a7f2, #468aca);
 }
 
-.social-field.instagram{
+.social-field.instagram {
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
-.social-field.linkedin{
+.social-field.linkedin {
     background: linear-gradient(45deg, #0077b5, #00a0dc);
 }
 
-.social-field.github{
+.social-field.github {
     background: linear-gradient(45deg, #24292e, #3f4448);
 }
 
-.cursos{
+.cursos {
     width: 50%;
 }
 
@@ -188,39 +189,40 @@ a:hover {
     height: 30px;
 }
 
-.banner{
+.banner {
     margin-left: 70%;
     margin-top: -20%;
 }
 
-.projetos-git a{
+.projetos-git a {
     text-decoration: none;
     color: black;
 }
 
-.projetos-git a:hover{
+.projetos-git a:hover {
     text-decoration: none;
     color: white;
 }
 
-.projetos{
+.projetos {
     width: 60%;
 }
 
-.projetos a{
+.projetos a {
     text-decoration: none;
     color: black;
 }
 
-.projetos a:hover{
+.projetos a:hover {
     text-decoration: none;
     color: white;
 }
 
-.banner-projetos{
+.banner-projetos {
     margin-left: 70%;
     margin-top: -40%;
 }
+
 /* Colocar para os celulares */
 
 /* Estilos para telas menores que 768px de largura no modo retrato */
@@ -237,23 +239,23 @@ a:hover {
         background: linear-gradient(45deg, #22F0CD, #26A6ED);
         background-repeat: no-repeat;
         min-height: 108vh;
-        min-width: 50vh;
+        min-width: 40vh;
     }
 
-    .menu img{
+    .menu img {
         margin-top: -100px;
         margin-right: -50px;
         width: 200px;
         height: 200px;
     }
 
-/*
+    /*
     main {
         margin: 1rem;
         padding: 1px;
     }
 */
-    .menu p{
+    .menu p {
         font-size: 25px;
     }
 
@@ -261,7 +263,7 @@ a:hover {
         width: 100%;
     }
 
-    .trabalho{
+    .trabalho {
         width: 100%;
     }
 
@@ -322,10 +324,10 @@ a:hover {
     .links a {
         padding: 20px 5px;
         margin-right: 10px;
-        
+
     }
 
-    .social-field{
+    .social-field {
         padding: 2px;
         border-radius: 4px;
         font-size: 0.85rem;
@@ -335,54 +337,50 @@ a:hover {
         text-align: center;
         margin-left: 0.5rem;
     }
-    
-    .social-field a{
+
+    .social-field a {
         text-decoration: none;
         color: white;
     }
-    
-    .social-field a i{
+
+    .social-field a i {
         margin: 0 0.5rem;
         width: 15px;
     }
-    
+
     .social-field.twitter {
         background: linear-gradient(to right, #56a7f2, #468aca);
     }
-    
-    .social-field.instagram{
+
+    .social-field.instagram {
         background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     }
-    
-    .social-field.linkedin{
+
+    .social-field.linkedin {
         background: linear-gradient(45deg, #0077b5, #00a0dc);
     }
-    
-    .social-field.github{
+
+    .social-field.github {
         background: linear-gradient(45deg, #24292e, #3f4448);
     }
 
-    .banner{
+    .banner {
         margin-left: -12rem;
         margin-top: -2px;
         display: none;
     }
 
-    .projetos{
+    .projetos {
         width: 100%;
     }
 
-<<<<<<< HEAD
     .texo-link {
-=======
-    .banner-projetos img {
->>>>>>> c492cac9b5e1522a7b74f8f0ad57451245623301
         display: none;
     }
-    
+
 }
 
-@media (min-widht: 921px) {
+@media (max-width: 921px) and (orientation: landscape) {
 
     /* Seus estilos aqui */
     * {
@@ -397,15 +395,17 @@ a:hover {
         min-height: 100%;
         min-width: 100%;
     }
-/*
+
+    /*
     main {
         margin: 1rem;
         padding: 1px;
     }
 */
-    .menu p{
+    .menu p {
         font-size: 25px;
     }
+
     #menu-selecao {
         position: fixed;
         top: 0;
@@ -453,11 +453,13 @@ a:hover {
 
     .row {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 50vh;
     }
+
 
     .col-3 {
         width: 25%;
@@ -466,10 +468,10 @@ a:hover {
     .links a {
         padding: 20px 5px;
         margin-right: 10px;
-        
+
     }
 
-    .social-field{
+    .social-field {
         padding: 2px;
         border-radius: 4px;
         font-size: 0.85rem;
@@ -478,33 +480,33 @@ a:hover {
         margin-top: 0.60rem;
         text-align: center;
     }
-    
-    .social-field a{
+
+    .social-field a {
         text-decoration: none;
         color: white;
     }
-    
-    .social-field a i{
+
+    .social-field a i {
         margin: 0 0.5rem;
         width: 15px;
     }
-    
+
     .social-field.twitter {
         background: linear-gradient(to right, #56a7f2, #468aca);
     }
-    
-    .social-field.instagram{
+
+    .social-field.instagram {
         background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     }
-    
-    .social-field.linkedin{
+
+    .social-field.linkedin {
         background: linear-gradient(45deg, #0077b5, #00a0dc);
     }
-    
-    .social-field.github{
+
+    .social-field.github {
         background: linear-gradient(45deg, #24292e, #3f4448);
     }
-    
+
     .banner img {
         display: none;
     }
