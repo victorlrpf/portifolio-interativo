@@ -378,6 +378,10 @@ a:hover {
         display: none;
     }
 
+    .banner-projetos{
+        display: none;
+    }
+
 }
 
 @media (max-width: 921px) and (orientation: landscape) {
@@ -508,6 +512,10 @@ a:hover {
     }
 
     .banner img {
+        display: none;
+    }
+
+    .banner-projetos{
         display: none;
     }
 }
