@@ -16,7 +16,7 @@ body {
 /*    min-height: 94.9vh;
     min-width: 90vh;*/
     min-height: 50rem;
-    min-width: 90rem;
+    min-width: 80rem;
 }
 
 main {
@@ -309,14 +309,14 @@ a:hover {
 
     .row {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
     .col-3 {
-        width: 100%;
+        width: 500px;
     }
 
     .links a {
@@ -370,6 +370,10 @@ a:hover {
 
     .projetos{
         width: 100%;
+    }
+
+    .texo-link {
+        display: none;
     }
     
 }
